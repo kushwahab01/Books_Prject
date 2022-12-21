@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Books_Prject.SumOfTwoInt</StartupObject>
+    <StartupObject>Books_Prject.PowerClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlternateNumber.cs" />
     <Compile Include="AnagramProgram.cs" />
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayClass.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="OccurenceOfString.cs" />
     <Compile Include="OverLoadingMethod.cs" />
     <Compile Include="PalindromOrNot.cs" />
+    <Compile Include="PowerClass.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Program3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
