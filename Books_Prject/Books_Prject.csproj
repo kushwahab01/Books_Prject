@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Books_Prject.PowerClass</StartupObject>
+    <StartupObject>Books_Prject.DepartmentDetails</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,8 @@
     <Compile Include="CollectionsDemo.cs" />
     <Compile Include="ComPareValues.cs" />
     <Compile Include="ConcatString.cs" />
+    <Compile Include="Coustomer.cs" />
+    <Compile Include="Department.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Employee1.cs" />
     <Compile Include="EmployeeClass.cs" />
@@ -61,7 +63,9 @@
     <Compile Include="EnumClasses.cs" />
     <Compile Include="FebonacciSeries.cs" />
     <Compile Include="FebonacciSeries1.cs" />
+    <Compile Include="FindMinimumAtArray.cs" />
     <Compile Include="FindPrime.cs" />
+    <Compile Include="FindThirdAngle.cs" />
     <Compile Include="GenericClassDemo.cs" />
     <Compile Include="MaxNumber.cs" />
     <Compile Include="MaxNumberArray.cs" />
@@ -72,6 +76,7 @@
     <Compile Include="OverLoadingMethod.cs" />
     <Compile Include="PalindromOrNot.cs" />
     <Compile Include="PowerClass.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Program3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
