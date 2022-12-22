@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Books_Prject.DepartmentDetails</StartupObject>
+    <StartupObject>Books_Prject.DeligateDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,11 +50,14 @@
     <Compile Include="AnagramProgram.cs" />
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayClass.cs" />
+    <Compile Include="BookLibrary.cs" />
     <Compile Include="Books.cs" />
     <Compile Include="CollectionsDemo.cs" />
     <Compile Include="ComPareValues.cs" />
     <Compile Include="ConcatString.cs" />
     <Compile Include="Coustomer.cs" />
+    <Compile Include="DelegateClass.cs" />
+    <Compile Include="DelegationImplements.cs" />
     <Compile Include="Department.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Employee1.cs" />
