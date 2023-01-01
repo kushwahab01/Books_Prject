@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Books_Prject.DeligateDemo</StartupObject>
+    <StartupObject>Books_Prject.StringCollection.FindOccurence</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,8 +52,10 @@
     <Compile Include="ArrayClass.cs" />
     <Compile Include="BookLibrary.cs" />
     <Compile Include="Books.cs" />
+    <Compile Include="CheckBalance.cs" />
     <Compile Include="CollectionsDemo.cs" />
     <Compile Include="ComPareValues.cs" />
+    <Compile Include="ConcatinatingOFString.cs" />
     <Compile Include="ConcatString.cs" />
     <Compile Include="Coustomer.cs" />
     <Compile Include="DelegateClass.cs" />
@@ -76,10 +78,13 @@
     <Compile Include="NewStudent.cs" />
     <Compile Include="ObjectInitializer.cs" />
     <Compile Include="OccurenceOfString.cs" />
+    <Compile Include="ComparisonOfString.cs" />
     <Compile Include="OverLoadingMethod.cs" />
     <Compile Include="PalindromOrNot.cs" />
     <Compile Include="PowerClass.cs" />
+    <Compile Include="Practice.cs" />
     <Compile Include="Product.cs" />
+    <Compile Include="ProductArray.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Program3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,14 +92,20 @@
     <Compile Include="Shape.cs" />
     <Compile Include="StackCollection.cs" />
     <Compile Include="StringClass.cs" />
+    <Compile Include="StringClasses.cs" />
+    <Compile Include="StringClasses1.cs" />
+    <Compile Include="StringCollection\FindOccurence.cs" />
+    <Compile Include="StringCollection\SplitString.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="SumOfTwoInt.cs" />
     <Compile Include="SwipNumber.cs" />
+    <Compile Include="TheringClass.cs" />
     <Compile Include="ToggleChar.cs" />
     <Compile Include="TwoDArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
