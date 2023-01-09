@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Books_Prject
 {
+
+    //3.	Write a C# program to count occurrences of a character in given string.
     class OccurenceOfString
     {
         static int Occurence(string str, string str1)

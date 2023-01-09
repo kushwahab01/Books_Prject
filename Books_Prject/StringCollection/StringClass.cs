@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Books_Prject
 {
+
+    //4.	Write a C# program to trim leading white space characters in a string.
     class StringClass
     {
         static void Main(string[] args)

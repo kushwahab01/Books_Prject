@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Books_Prject.StringCollection
 {
+
+    //1.	WAP to split string into 2 tokens where string is “HELLO$WORLD”
     class SplitString
     {
         static void Main(string[] args)

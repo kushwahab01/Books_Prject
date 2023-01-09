@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Books_Prject.StringCollection
 {
+    //2.	Write a C# program to find first occurrence of a character in a given string.
+
     class FindOccurence
     {
         public int Occcurence(string str, string str1)

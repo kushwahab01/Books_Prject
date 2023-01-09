@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Books_Prject.StringCollection.FindOccurence</StartupObject>
+    <StartupObject>Books_Prject.AnagramProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,27 +47,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlternateNumber.cs" />
-    <Compile Include="AnagramProgram.cs" />
+    <Compile Include="StringCollection\AnagramProgram.cs" />
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayClass.cs" />
     <Compile Include="BookLibrary.cs" />
     <Compile Include="Books.cs" />
     <Compile Include="CheckBalance.cs" />
-    <Compile Include="CollectionsDemo.cs" />
-    <Compile Include="ComPareValues.cs" />
-    <Compile Include="ConcatinatingOFString.cs" />
-    <Compile Include="ConcatString.cs" />
+    <Compile Include="StringCollection\ClassProgram.cs" />
+    <Compile Include="StringCollection\CollectionsDemo.cs" />
+    <Compile Include="StringCollection\ComPareValues.cs" />
+    <Compile Include="StringCollection\ConcatinatingOFString.cs" />
+    <Compile Include="StringCollection\ConcatString.cs" />
     <Compile Include="Coustomer.cs" />
     <Compile Include="DelegateClass.cs" />
     <Compile Include="DelegationImplements.cs" />
     <Compile Include="Department.cs" />
+    <Compile Include="DescendingNumber.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Employee1.cs" />
     <Compile Include="EmployeeClass.cs" />
     <Compile Include="EmployeeConstructor.cs" />
     <Compile Include="EnumClasses.cs" />
     <Compile Include="FebonacciSeries.cs" />
-    <Compile Include="FebonacciSeries1.cs" />
+    <Compile Include="StringCollection\FebonacciSeries1.cs" />
     <Compile Include="FindMinimumAtArray.cs" />
     <Compile Include="FindPrime.cs" />
     <Compile Include="FindThirdAngle.cs" />
@@ -76,31 +78,41 @@
     <Compile Include="MaxNumberArray.cs" />
     <Compile Include="NewClasArray.cs" />
     <Compile Include="NewStudent.cs" />
+    <Compile Include="NumberIsAscendingDescendingOrBouncy.cs" />
+    <Compile Include="NumberIsIncreasingOrDec.cs" />
     <Compile Include="ObjectInitializer.cs" />
-    <Compile Include="OccurenceOfString.cs" />
-    <Compile Include="ComparisonOfString.cs" />
+    <Compile Include="StringCollection\FindLongestWord.cs" />
+    <Compile Include="StringCollection\NumberIsWeirdOrNot.cs" />
+    <Compile Include="StringCollection\OccurenceOfString.cs" />
+    <Compile Include="StringCollection\ComparisonOfString.cs" />
     <Compile Include="OverLoadingMethod.cs" />
     <Compile Include="PalindromOrNot.cs" />
+    <Compile Include="Pattern.cs" />
     <Compile Include="PowerClass.cs" />
     <Compile Include="Practice.cs" />
+    <Compile Include="Practice1.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductArray.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Program3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseNumber.cs" />
+    <Compile Include="StringCollection\ReverseWord.cs" />
+    <Compile Include="SampleExp.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="StackCollection.cs" />
-    <Compile Include="StringClass.cs" />
+    <Compile Include="StringCollection\StringClass.cs" />
     <Compile Include="StringClasses.cs" />
-    <Compile Include="StringClasses1.cs" />
+    <Compile Include="StringCollection\StringClasses1.cs" />
+    <Compile Include="StringCollection\AvgNumberInString.cs" />
     <Compile Include="StringCollection\FindOccurence.cs" />
     <Compile Include="StringCollection\SplitString.cs" />
+    <Compile Include="StringCollection\ToggleCharacter.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="SumOfTwoInt.cs" />
     <Compile Include="SwipNumber.cs" />
     <Compile Include="TheringClass.cs" />
-    <Compile Include="ToggleChar.cs" />
+    <Compile Include="StringCollection\ToggleChar.cs" />
     <Compile Include="TwoDArray.cs" />
   </ItemGroup>
   <ItemGroup>
