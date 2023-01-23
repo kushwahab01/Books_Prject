@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Books_Prject.AnagramProgram</StartupObject>
+    <StartupObject>Books_Prject.FindZero</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlternateNumber.cs" />
+    <Compile Include="FindZero.cs" />
     <Compile Include="StringCollection\AnagramProgram.cs" />
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="ArrayClass.cs" />
