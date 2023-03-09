@@ -64,7 +64,7 @@ namespace Books_Prject
              Console.WriteLine(a);
              Console.WriteLine(d);*/
 
-        /*    int a = int.Parse(Console.ReadLine());*/
+            /*    int a = int.Parse(Console.ReadLine());*/
             /* int b = int.Parse(Console.ReadLine());*/
             /* int sum = a + b;
              Console.WriteLine(sum);*/
@@ -83,7 +83,7 @@ namespace Books_Prject
                  Console.WriteLine("odd");
              }
  */
-           /* int n = int.Parse(Console.ReadLine());*/
+            /* int n = int.Parse(Console.ReadLine());*/
             /*  if(n%5==0)
               {
                   Console.WriteLine("divisible by 5");
@@ -114,7 +114,18 @@ namespace Books_Prject
               {
                   Console.WriteLine("divisible by 9");
               }*/
-
+            int num = int.Parse(Console.ReadLine());
+            int bvalue = 1;
+            int rem;
+            int devalue = 0;
+            while(num>0)
+            {
+                rem = num % 10;
+                devalue = devalue + rem * bvalue;
+                num = num / 10;
+                bvalue = bvalue * 2;
+            }
+            Console.WriteLine(devalue);
             
 
 

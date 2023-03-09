@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Books_Prject.ReverseWordString</StartupObject>
+    <StartupObject>Books_Prject.RemoveSpace</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeDetails.cs" />
+    <Compile Include="LinQProgram.cs" />
+    <Compile Include="Mock.cs" />
+    <Compile Include="PracticeClass.cs" />
     <Compile Include="AlternateNumber.cs" />
+    <Compile Include="ConvertBinaryToDesimal.cs" />
     <Compile Include="FindZero.cs" />
     <Compile Include="ListCollect.cs" />
+    <Compile Include="PracticeSession.cs" />
+    <Compile Include="RemoveSpace.cs" />
     <Compile Include="ReverseWordString.cs" />
     <Compile Include="StringCollection\AnagramProgram.cs" />
     <Compile Include="ArmstrongNumber.cs" />
